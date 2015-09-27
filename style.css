@@ -1,0 +1,61 @@
+body{
+	margin: 0px;
+}
+header, .row, li{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+header, .row{
+	overflow: hidden;
+	width: 100%;
+	padding: 0.4%;
+}
+.row{
+	padding: 0px;
+	display: none;
+}
+ul{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	margin: 0.4%;
+	width: 19.2%;
+	padding: 0.5% 0.8% 0.5% 0.8%;
+	float: left;
+	display: inline;
+	background-color: rgba(26,26,26, 0.8);
+	text-align: center;
+}
+li:hover{
+	cursor: pointer;
+	background-color: rgba(26,26,26, 0.7);
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+#btnMenu{
+	height: 37px;
+	text-align: center;
+	float: right;
+}
+i{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	color: rgba(26,26,26, 0.8);
+}
+i:hover{
+	cursor: pointer;
+	color: rgba(26,26,26, 0.7);
+}
+h1{
+	color: rgba(26,26,26, 0.8);
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
